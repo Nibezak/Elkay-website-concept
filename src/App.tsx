@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/Header';
+import Hero from './components/Hero';
 import Features from './components/Features';
 import WhyUs from './components/WhyUs';
 import Testimonials from './components/Testimonials';
@@ -27,6 +28,7 @@ function Home() {
   return (
     <main className="min-h-screen bg-white overflow-x-hidden">
       <Header />
+      <Hero />
       <Features />
       <WhyUs />
       <Certifications />
@@ -42,6 +44,7 @@ function AboutPage() {
   return (
     <main className="min-h-screen bg-white overflow-x-hidden">
       <Header />
+      
       <About />
       <Contact />
       <Footer />

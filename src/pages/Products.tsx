@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 import { ArrowUpRight } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import panGreaseImg from '../../assets/unnamed (4).jpg';
-import bakersFatImg from '../../assets/unnamed (3).jpg';
-import breadImproverImg from '../../assets/unnamed (5).jpg';
-import cakeGelImg from '../../assets/unnamed (2).jpg';
+import panGreaseImg from '../assets/pan-grease.jpg';
+import bakersFatImg from '../assets/bakers-fat.jpg';
+import breadImproverImg from '../assets/dough-improver.jpg';
+import cakeGelImg from '../assets/cake-gel.jpg';
 
 const products = [
   {
@@ -53,10 +53,10 @@ export default function Products() {
             Our Catalog
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-semibold text-[#093600] tracking-tight leading-tight font-serif" style={{ fontFamily: '"Crimson Pro", serif' }}>
+          <h1 className="text-5xl md:text-7xl font-semibold text-[#012E1B] tracking-tight leading-tight font-serif" style={{ fontFamily: '"Crimson Pro", serif' }}>
             Premium Ingredients
           </h1>
-          <p className="text-xl text-[#093600]/80 max-w-2xl">
+          <p className="text-xl text-[#012E1B]/80 max-w-2xl">
             Explore our range of precision-engineered baking ingredients designed for master bakers and industrial scale production.
           </p>
         </motion.div>
@@ -70,21 +70,21 @@ export default function Products() {
               viewport={{ once: true }}
               transition={{ delay: idx * 0.1, duration: 0.6 }}
             >
-              <Link to={`/products/${product.id}`} className="group block h-full bg-white rounded-[32px] overflow-hidden border border-[#093600]/10 hover:shadow-xl transition-all duration-300">
+              <Link to={`/products/${product.id}`} className="group block h-full bg-white rounded-[32px] overflow-hidden border border-[#012E1B]/10 hover:shadow-xl transition-all duration-300">
                 <div className="w-full aspect-[4/3] overflow-hidden relative">
                   <img src={product.img} alt={product.title} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
                   <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-500" />
                 </div>
                 <div className="p-8 flex flex-col justify-between items-start gap-6">
                   <div>
-                    <h3 className="text-2xl font-bold text-[#093600] mb-2 font-serif" style={{ fontFamily: '"Crimson Pro", serif' }}>
+                    <h3 className="text-2xl font-bold text-[#012E1B] mb-2 font-serif" style={{ fontFamily: '"Crimson Pro", serif' }}>
                       {product.title}
                     </h3>
-                    <p className="text-[#093600]/70 leading-relaxed">
+                    <p className="text-[#012E1B]/70 leading-relaxed">
                       {product.desc}
                     </p>
                   </div>
-                  <div className="flex items-center gap-2 text-[#093600] font-semibold group-hover:text-[#85FA6D] transition-colors">
+                  <div className="flex items-center gap-2 text-[#012E1B] font-semibold group-hover:text-[#85FA6D] transition-colors">
                     View Details
                     <ArrowUpRight className="w-5 h-5 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" />
                   </div>

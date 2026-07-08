@@ -20,7 +20,7 @@ export default function BreadImprover() {
             Products / Dough Conditioners
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-semibold text-[#093600] tracking-tight leading-tight font-serif" style={{ fontFamily: '"Crimson Pro", serif' }}>
+          <h1 className="text-5xl md:text-7xl font-semibold text-[#012E1B] tracking-tight leading-tight font-serif" style={{ fontFamily: '"Crimson Pro", serif' }}>
             Bread Improver
           </h1>
           
@@ -32,8 +32,8 @@ export default function BreadImprover() {
             />
           </div>
 
-          <div className="prose prose-lg prose-green max-w-none text-[#093600]/80">
-            <p className="text-xl md:text-2xl leading-relaxed text-[#093600] mb-12">
+          <div className="prose prose-lg prose-green max-w-none text-[#012E1B]/80">
+            <p className="text-xl md:text-2xl leading-relaxed text-[#012E1B] mb-12">
               ELKAY bread improver is a flour-based blend of several ingredients with specific functional properties designed to modify dough characteristics and give quality attributes to bread.
             </p>
 
@@ -41,21 +41,21 @@ export default function BreadImprover() {
               Bread improvers are mostly made from a combination of enzymes in addition to various emulsifiers and soya flour for their dough conditioning and improving properties. They have a range of functional benefits; they can enable the rapid development of a dough through to the finished baked product by reducing the time required to achieve a comparable result from the traditional long fermented doughs of the past.
             </p>
 
-            <h2 className="text-3xl font-semibold text-[#093600] mt-16 mb-6" style={{ fontFamily: '"Crimson Pro", serif' }}>
+            <h2 className="text-3xl font-semibold text-[#012E1B] mt-16 mb-6" style={{ fontFamily: '"Crimson Pro", serif' }}>
               The Function of Bread Improvers
             </h2>
             
             <p className="mb-6">There are 2 primary functions of bread improvers in dough:</p>
 
             <div className="grid md:grid-cols-2 gap-8 my-12">
-              <div className="bg-white p-8 rounded-2xl border border-[#093600]/10 shadow-sm">
-                <h3 className="text-xl font-bold text-[#093600] mb-4">1. Stimulate & Promote Gas Production</h3>
+              <div className="bg-white p-8 rounded-2xl border border-[#012E1B]/10 shadow-sm">
+                <h3 className="text-xl font-bold text-[#012E1B] mb-4">1. Stimulate & Promote Gas Production</h3>
                 <p className="text-sm">
                   Carbon dioxide is formed in a dough when the available sugars are broken down by various enzymes. Bread improvers promote the continuous and constant production of gas throughout the fermentation period until the yeast activity is stopped by the high temperatures in the baking oven.
                 </p>
               </div>
-              <div className="bg-white p-8 rounded-2xl border border-[#093600]/10 shadow-sm">
-                <h3 className="text-xl font-bold text-[#093600] mb-4">2. Aids in Gas Retention</h3>
+              <div className="bg-white p-8 rounded-2xl border border-[#012E1B]/10 shadow-sm">
+                <h3 className="text-xl font-bold text-[#012E1B] mb-4">2. Aids in Gas Retention</h3>
                 <p className="text-sm">
                   Bread improvers rapidly modify the gluten structure in a dough, to produce a matrix so that the minimum amount of gas can be retained and hence assist the expansion or leavening of the dough.
                 </p>
@@ -67,7 +67,7 @@ export default function BreadImprover() {
             </p>
 
             <div className="bg-[#EDFBEA] p-8 md:p-12 rounded-3xl mt-12">
-              <h3 className="text-2xl font-semibold text-[#093600] mb-4" style={{ fontFamily: '"Crimson Pro", serif' }}>
+              <h3 className="text-2xl font-semibold text-[#012E1B] mb-4" style={{ fontFamily: '"Crimson Pro", serif' }}>
                 Why should you use Bread Improver?
               </h3>
               <p className="text-lg">

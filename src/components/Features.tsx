@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import { Link } from "react-router-dom";
-import panGreaseImg from "../../assets/unnamed (4).jpg";
-import bakersFatImg from "../../assets/unnamed (3).jpg";
-import doughImproverImg from "../../assets/unnamed (5).jpg";
-import cakeGelImg from "../../assets/unnamed (2).jpg";
+import panGreaseImg from "../assets/pan-grease.jpg";
+import bakersFatImg from "../assets/bakers-fat.jpg";
+import doughImproverImg from "../assets/dough-improver.jpg";
+import cakeGelImg from "../assets/cake-gel.jpg";
 
 const programs = [
   {
@@ -58,10 +58,10 @@ export default function Features({ className }: { className?: string }) {
   return (
     <section className={"w-full py-20 md:py-[120px] px-6 md:px-[120px] bg-white flex flex-col items-center gap-16 md:gap-[80px] self-stretch " + (className || "")}>
       <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-100px" }} transition={{ duration: 0.6 }} className="flex flex-col items-center gap-5 max-w-[680px] text-center">
-        <h2 className="text-[#093600] font-serif text-3xl sm:text-4xl md:text-5xl lg:text-[52px] font-semibold leading-tight tracking-tight">
+        <h2 className="text-[#012E1B] font-serif text-3xl sm:text-4xl md:text-5xl lg:text-[52px] font-semibold leading-tight tracking-tight">
           Discover Our Core<br className="hidden sm:block" /> Ingredient Collection
         </h2>
-        <p className="text-[#093600]/60 font-sans text-base sm:text-lg leading-relaxed tracking-tight">
+        <p className="text-[#012E1B]/60 font-sans text-base sm:text-lg leading-relaxed tracking-tight">
           Engineered fats, release agents, and dough conditioners to<br className="hidden sm:block" /> elevate your baking consistency and product quality.
         </p>
       </motion.div>
@@ -69,7 +69,7 @@ export default function Features({ className }: { className?: string }) {
       <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-100px" }} transition={{ duration: 0.6, delay: 0.1 }} className="w-full max-w-[1170px] bg-[#EDFBEA] rounded-[30px] p-6 md:p-8 flex flex-col lg:flex-row items-center gap-6">
         <nav className="flex lg:flex-col gap-1 overflow-x-auto lg:overflow-visible pb-4 lg:pb-0 scrollbar-hide w-full lg:w-auto lg:flex-1 items-center lg:items-start">
           {programs.map((p, i) => (
-            <button key={i} onClick={() => setActiveTab(i)} className={"flex items-center justify-center lg:justify-start px-5 py-3.5 rounded-full font-sans text-sm sm:text-base font-semibold transition-all whitespace-nowrap text-center lg:text-left " + (activeTab === i ? "bg-[#85FA6D] text-[#093600]" : "bg-transparent text-[#093600] hover:bg-[#85FA6D]/25")}>
+            <button key={i} onClick={() => setActiveTab(i)} className={"flex items-center justify-center lg:justify-start px-5 py-3.5 rounded-full font-sans text-sm sm:text-base font-semibold transition-all whitespace-nowrap text-center lg:text-left " + (activeTab === i ? "bg-[#85FA6D] text-[#012E1B]" : "bg-transparent text-[#012E1B] hover:bg-[#85FA6D]/25")}>
               {p.tag}
             </button>
           ))}
@@ -90,14 +90,14 @@ export default function Features({ className }: { className?: string }) {
         </div>
 
         <div className="bg-white rounded-[30px] py-8 px-6 flex flex-col justify-between items-end flex-[1_0_0] self-stretch">
-          <Link to={programs[activeTab].link} className="w-10 h-10 rounded-full border border-[#093600]/15 flex items-center justify-center transition-all hover:bg-[#85FA6D] hover:border-[#85FA6D] hover:rotate-45 group">
-            <ArrowUpRight className="w-[18px] h-[18px] text-[#093600]" />
+          <Link to={programs[activeTab].link} className="w-10 h-10 rounded-full border border-[#012E1B]/15 flex items-center justify-center transition-all hover:bg-[#85FA6D] hover:border-[#85FA6D] hover:rotate-45 group">
+            <ArrowUpRight className="w-[18px] h-[18px] text-[#012E1B]" />
           </Link>
           <div className="flex flex-col gap-1.5 mt-6 lg:mt-0 w-full text-left">
-            <p className="font-serif text-[48px] font-semibold leading-[56px] text-[#093600] tracking-[-0.8px] self-stretch">
+            <p className="font-serif text-[48px] font-semibold leading-[56px] text-[#012E1B] tracking-[-0.8px] self-stretch">
               {programs[activeTab].price}
             </p>
-            <p className="font-sans text-sm text-[#093600]/55 leading-relaxed">
+            <p className="font-sans text-sm text-[#012E1B]/55 leading-relaxed">
               {programs[activeTab].label}
             </p>
           </div>
@@ -111,10 +111,10 @@ export default function Features({ className }: { className?: string }) {
               ✓
             </div>
             <div className="flex flex-col gap-2 flex-1">
-              <p className="self-stretch text-[#093600] font-serif text-[20px] font-semibold leading-[28px] tracking-[-0.04px]">
+              <p className="self-stretch text-[#012E1B] font-serif text-[20px] font-semibold leading-[28px] tracking-[-0.04px]">
                 {f.title}
               </p>
-              <p className="font-sans text-[15px] text-[#093600]/55 leading-relaxed tracking-tight">
+              <p className="font-sans text-[15px] text-[#012E1B]/55 leading-relaxed tracking-tight">
                 {f.desc}
               </p>
             </div>

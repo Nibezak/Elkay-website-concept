@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import certImg from "../../assets/unnamed (1).jpg";
+import certImg from "../assets/hero1.jpg";
 
 export default function Certifications({ className }: { className?: string }) {
   return (
@@ -35,26 +35,26 @@ export default function Certifications({ className }: { className?: string }) {
             Certified Quality
           </div>
           
-          <h2 className="text-[#093600] text-4xl md:text-5xl lg:text-[52px] font-bold leading-tight tracking-tight font-serif" style={{ fontFamily: '"Crimson Pro", serif' }}>
+          <h2 className="text-[#012E1B] text-4xl md:text-5xl lg:text-[52px] font-bold leading-tight tracking-tight font-serif" style={{ fontFamily: '"Crimson Pro", serif' }}>
             Uncompromising Standards.
           </h2>
           
-          <p className="text-[#093600]/80 text-lg leading-relaxed font-sans">
+          <p className="text-[#012E1B]/80 text-lg leading-relaxed font-sans">
             At Elkay, we hold ourselves to the highest manufacturing and food safety standards. We are proudly KEBS certified, ensuring every batch meets rigorous quality controls.
           </p>
           
-          <p className="text-[#093600]/80 text-lg leading-relaxed font-sans">
+          <p className="text-[#012E1B]/80 text-lg leading-relaxed font-sans">
             Furthermore, our products are fully Halal Certified, providing peace of mind and broad compliance for your diverse customer base.
           </p>
 
           <div className="flex gap-4 mt-6">
-            <div className="bg-white px-6 py-4 rounded-2xl shadow-sm border border-[#093600]/10 flex flex-col items-center justify-center">
-              <span className="font-bold text-[#093600] text-lg">KEBS</span>
-              <span className="text-xs text-[#093600]/60 uppercase tracking-widest mt-1">Certified</span>
+            <div className="bg-white px-6 py-4 rounded-2xl shadow-sm border border-[#012E1B]/10 flex flex-col items-center justify-center">
+              <span className="font-bold text-[#012E1B] text-lg">KEBS</span>
+              <span className="text-xs text-[#012E1B]/60 uppercase tracking-widest mt-1">Certified</span>
             </div>
-            <div className="bg-white px-6 py-4 rounded-2xl shadow-sm border border-[#093600]/10 flex flex-col items-center justify-center">
-              <span className="font-bold text-[#093600] text-lg">HALAL</span>
-              <span className="text-xs text-[#093600]/60 uppercase tracking-widest mt-1">Certified</span>
+            <div className="bg-white px-6 py-4 rounded-2xl shadow-sm border border-[#012E1B]/10 flex flex-col items-center justify-center">
+              <span className="font-bold text-[#012E1B] text-lg">HALAL</span>
+              <span className="text-xs text-[#012E1B]/60 uppercase tracking-widest mt-1">Certified</span>
             </div>
           </div>
         </motion.div>

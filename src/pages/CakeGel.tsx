@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import cakeGelImg from '../../assets/unnamed (2).jpg';
+import cakeGelImg from '../assets/cake-gel.jpg';
 
 export default function CakeGel() {
   return (
@@ -21,7 +21,7 @@ export default function CakeGel() {
             Products / Emulsifiers
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-semibold text-[#093600] tracking-tight leading-tight font-serif" style={{ fontFamily: '"Crimson Pro", serif' }}>
+          <h1 className="text-5xl md:text-7xl font-semibold text-[#012E1B] tracking-tight leading-tight font-serif" style={{ fontFamily: '"Crimson Pro", serif' }}>
             Cake Gel
           </h1>
           
@@ -33,15 +33,15 @@ export default function CakeGel() {
             />
           </div>
 
-          <div className="prose prose-lg prose-green max-w-none text-[#093600]/80">
-            <h2 className="text-3xl font-semibold text-[#093600] mt-12 mb-6" style={{ fontFamily: '"Crimson Pro", serif' }}>
+          <div className="prose prose-lg prose-green max-w-none text-[#012E1B]/80">
+            <h2 className="text-3xl font-semibold text-[#012E1B] mt-12 mb-6" style={{ fontFamily: '"Crimson Pro", serif' }}>
               What is Elkay Cake Gel?
             </h2>
-            <p className="text-xl leading-relaxed text-[#093600] mb-8">
+            <p className="text-xl leading-relaxed text-[#012E1B] mb-8">
               Elkay Cake Gel is a premium cake emulsifier that does not add strange tastes to your cake mixes. Instead, it adds a crucial function that allows insoluble liquids (water and oil) to mix seamlessly.
             </p>
 
-            <h3 className="text-2xl font-semibold text-[#093600] mt-12 mb-6" style={{ fontFamily: '"Crimson Pro", serif' }}>
+            <h3 className="text-2xl font-semibold text-[#012E1B] mt-12 mb-6" style={{ fontFamily: '"Crimson Pro", serif' }}>
               Main Functions in Cake Baking
             </h3>
             <ul className="list-disc pl-6 mb-12 space-y-4">
@@ -51,7 +51,7 @@ export default function CakeGel() {
             </ul>
 
             <div className="bg-[#EDFBEA] p-8 md:p-12 rounded-3xl mt-12">
-              <h3 className="text-2xl font-semibold text-[#093600] mb-4" style={{ fontFamily: '"Crimson Pro", serif' }}>
+              <h3 className="text-2xl font-semibold text-[#012E1B] mb-4" style={{ fontFamily: '"Crimson Pro", serif' }}>
                 Use Cases of Cake Gel
               </h3>
               <p className="text-lg">

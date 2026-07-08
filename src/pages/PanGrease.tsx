@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import panGreaseImg from '../../assets/unnamed (4).jpg';
+import panGreaseImg from '../assets/pan-grease.jpg';
 
 export default function PanGrease() {
   return (
@@ -21,7 +21,7 @@ export default function PanGrease() {
             Products / Release Agents
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-semibold text-[#093600] tracking-tight leading-tight font-serif" style={{ fontFamily: '"Crimson Pro", serif' }}>
+          <h1 className="text-5xl md:text-7xl font-semibold text-[#012E1B] tracking-tight leading-tight font-serif" style={{ fontFamily: '"Crimson Pro", serif' }}>
             Pan Grease
           </h1>
           
@@ -33,8 +33,8 @@ export default function PanGrease() {
             />
           </div>
 
-          <div className="prose prose-lg prose-green max-w-none text-[#093600]/80">
-            <p className="text-xl md:text-2xl leading-relaxed text-[#093600] mb-12">
+          <div className="prose prose-lg prose-green max-w-none text-[#012E1B]/80">
+            <p className="text-xl md:text-2xl leading-relaxed text-[#012E1B] mb-12">
               Elkay Pan Grease is a vegetable oil based emulsion consisting of quality vegetable oils that is vegan and vegetarian compliant. Our products are also Halal Certified.
             </p>
 
@@ -44,7 +44,7 @@ export default function PanGrease() {
 
             <div className="bg-[#EDFBEA] p-8 md:p-12 rounded-3xl mt-12 grid md:grid-cols-2 gap-8 items-center">
               <div>
-                <h3 className="text-2xl font-semibold text-[#093600] mb-4" style={{ fontFamily: '"Crimson Pro", serif' }}>
+                <h3 className="text-2xl font-semibold text-[#012E1B] mb-4" style={{ fontFamily: '"Crimson Pro", serif' }}>
                   Industrial Packaging
                 </h3>
                 <p className="text-lg">
@@ -52,9 +52,9 @@ export default function PanGrease() {
                 </p>
               </div>
               <div className="flex justify-center md:justify-end">
-                <div className="text-center p-6 bg-white rounded-2xl shadow-sm border border-[#093600]/10">
-                  <div className="text-4xl font-bold text-[#093600] mb-2">20L</div>
-                  <div className="text-sm font-medium uppercase tracking-widest text-[#093600]/60">Jerry Cans</div>
+                <div className="text-center p-6 bg-white rounded-2xl shadow-sm border border-[#012E1B]/10">
+                  <div className="text-4xl font-bold text-[#012E1B] mb-2">20L</div>
+                  <div className="text-sm font-medium uppercase tracking-widest text-[#012E1B]/60">Jerry Cans</div>
                 </div>
               </div>
             </div>

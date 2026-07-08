@@ -1,14 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
-import logoUrl from "../../assets/unnamed.png";
+import logoUrl from "../assets/logo.png";
 
 export default function Footer() {
   return (
-    <footer className="relative w-full overflow-hidden bg-[#093600]">
+    <footer className="relative w-full overflow-hidden bg-[#012E1B]">
       <div className="absolute inset-0 z-0">
         <img src="https://images.unsplash.com/photo-1517686469429-8bdb88b9f907?w=1600&q=80" alt="Footer Background" className="w-full h-full object-cover" />
-        <div className="absolute inset-0" style={{ background: "linear-gradient(180deg, rgba(9, 54, 0, 0.00) 0%, #093600 80%)" }} />
+        <div className="absolute inset-0" style={{ background: "linear-gradient(180deg, rgba(9, 54, 0, 0.00) 0%, #012E1B 80%)" }} />
       </div>
 
       <div className="relative z-10 flex flex-col items-center w-full max-w-[1440px] mx-auto px-6 md:px-[135px] pt-[130px] pb-0">
