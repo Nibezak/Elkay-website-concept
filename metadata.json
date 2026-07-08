@@ -1,0 +1,6 @@
+{
+  "name": "ELKAY Bakery",
+  "description": "A modern, warm, and highly visual promotional homepage for ELKAY bakery, featuring a custom layout, product carousels, and scrolling marquees.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
