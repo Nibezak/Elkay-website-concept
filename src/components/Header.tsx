@@ -1,3 +1,4 @@
+import Logo from "./Logo";
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowUpRight, Headphones, Menu, X } from "lucide-react";
@@ -21,7 +22,7 @@ export default function Header({ className }: { className?: string }) {
         className={`flex items-center justify-between py-4 bg-white z-20 relative max-w-[1360px] w-full mx-auto px-4 md:px-6 ${className || ""}`}
       >
         <div className="flex items-center h-[50px] cursor-pointer" onClick={() => navigate('/')}>
-           <img src="/elkaylogo.png" alt="Elkay Logo" className="h-[40px] w-auto object-contain p-1" />
+           <Logo />
         </div>
 
         {/* Desktop Nav Links */}

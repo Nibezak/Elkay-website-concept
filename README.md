@@ -1,20 +1,18 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Elkay Official Website
 
-# Run and deploy your AI Studio app
+This is the source code for the official Elkay website, an industrial baking ecosystem.
 
-This contains everything you need to run your app locally.
+## Where to find what
 
-View your app in AI Studio: https://ai.studio/apps/e8f212b9-5e41-4895-9c4e-a23b51d34d73
+*   **`src/components/`**: Contains all the reusable UI blocks (Header, Footer, Hero, Features, Testimonials, etc.).
+*   **`src/pages/`**: Contains full-page layouts for specific product lines (Bread Improver, Pan Grease, Bakers Fat) and the unified Products listing.
+*   **`src/App.tsx`**: The main application routing configuration.
+*   **`public/`**: Contains static assets like the Elkay logo (`elkaylogo.png`) that are served directly at the root path.
+*   **`src/assets/`**: Additional graphical assets and placeholder images.
+*   **`static-version/`**: Contains a pure HTML/CSS reference version of the landing page, available if you only need the markup and styles without React or a build process.
 
-## Run Locally
+## Local Development
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1.  Run `npm install` to install dependencies.
+2.  Run `npm run dev` to start the development server.
+3.  Run `npm run build` to generate the production build in the `dist/` folder.

@@ -1,3 +1,4 @@
+import Logo from "./Logo";
 import React from "react";
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
@@ -26,7 +27,7 @@ export default function Footer() {
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-[64px] w-full mb-[64px]">
           <div className="flex flex-col items-start gap-4 w-full lg:w-[275px] shrink-0">
             <div className="flex items-center h-[50px]">
-              <img src="/elkaylogo.png" alt="Elkay Logo" className="h-full w-auto object-contain bg-white rounded-[12px] p-2" />
+              <Logo isFooter={true} />
             </div>
             <p className="font-sans text-[16px] text-white/60 leading-[1.6]">
               A complete industrial baking ecosystem designed to deliver measurable results and lasting quality.
