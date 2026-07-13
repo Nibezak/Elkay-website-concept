@@ -3,7 +3,7 @@ import { motion, Variants } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
 
 const stats = [
-  { number: "20K+", text: "Trusted by artisanal bakers and industrial facilities globally." },
+  { number: "20K+", text: "Trusted by artisanal producers and industrial facilities globally." },
   { number: "35K+", text: "Tons of premium baking ingredients delivered annually." },
   { number: "1M+", text: "Batches of flawless baked goods produced using our products." },
   { number: "500K+", text: "Hours of rigorous food science and R&D testing completed." }
@@ -43,7 +43,7 @@ export default function WhyUs({ className }: { className?: string }) {
 
         <motion.div initial="initial" whileInView="animate" viewport={{ once: true, margin: "-100px" }} variants={containerVariants} className="w-full flex flex-col lg:flex-row gap-10 lg:gap-[56px] mb-12 md:mb-16">
           <motion.div variants={itemVariants} className="flex-1 w-full lg:max-w-[540px] aspect-[4/3] lg:aspect-auto lg:self-stretch rounded-[24px] md:rounded-[30px] overflow-hidden relative group">
-            <motion.img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=1600&q=80" alt="Baking Process" className="w-full h-full object-cover" animate={{ scale: [1, 1.03, 1] }} transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }} />
+            <motion.img src="https://images.unsplash.com/photo-1517686469429-8bdb88b9f907?w=1600&q=80" alt="Baking Process" className="w-full h-full object-cover" animate={{ scale: [1, 1.03, 1] }} transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }} />
           </motion.div>
 
           <div className="flex-1 flex flex-col gap-3">

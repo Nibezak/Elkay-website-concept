@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowUpRight, Headphones, Menu, X } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
-import logoUrl from "../assets/logo.png";
 
 export default function Header({ className }: { className?: string }) {
   const navigate = useNavigate();
@@ -22,7 +21,13 @@ export default function Header({ className }: { className?: string }) {
         className={`flex items-center justify-between py-4 bg-white z-20 relative max-w-[1360px] w-full mx-auto px-4 md:px-6 ${className || ""}`}
       >
         <div className="flex items-center h-[50px] cursor-pointer" onClick={() => navigate('/')}>
-           <img src={logoUrl} alt="Elkay Logo" className="h-[40px] w-auto object-contain p-1" />
+           <div className="text-[#012E1B] flex items-center p-1"><svg width="120" height="40" viewBox="0 0 150 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M10 30V10H30V14H15V18H28V22H15V26H30V30H10Z" fill="currentColor"/>
+  <path d="M35 30V10H40V26H55V30H35Z" fill="currentColor"/>
+  <path d="M60 30V10H65V18H75L82 30H76L71 20H65V30H60Z" fill="currentColor"/>
+  <path d="M85 30L95 10H101L111 30H105L102 24H93L90 30H85ZM95 19L97.5 14L100 19H95Z" fill="currentColor"/>
+  <path d="M115 10H121L128 20L135 10H141L131 24V30H125V24L115 10Z" fill="currentColor"/>
+</svg></div>
         </div>
 
         {/* Desktop Nav Links */}
@@ -45,7 +50,6 @@ export default function Header({ className }: { className?: string }) {
               <Link to="/products/bread-improver" className="hover:text-[#012E1B] transition-colors font-jost font-medium text-sm">Bread Improver</Link>
               <Link to="/products/pan-grease" className="hover:text-[#012E1B] transition-colors font-jost font-medium text-sm">Pan Grease</Link>
               <Link to="/products/bakers-fat" className="hover:text-[#012E1B] transition-colors font-jost font-medium text-sm">Bakers Fat</Link>
-              <Link to="/products/cake-gel" className="hover:text-[#012E1B] transition-colors font-jost font-medium text-sm">Cake Gel</Link>
             </div>
           </div>
         </div>
@@ -93,7 +97,6 @@ export default function Header({ className }: { className?: string }) {
               <Link to="/products/bread-improver" onClick={() => setIsOpen(false)} className="text-lg py-2 border-b border-gray-100 pl-4">Bread Improver</Link>
               <Link to="/products/pan-grease" onClick={() => setIsOpen(false)} className="text-lg py-2 border-b border-gray-100 pl-4">Pan Grease</Link>
               <Link to="/products/bakers-fat" onClick={() => setIsOpen(false)} className="text-lg py-2 border-b border-gray-100 pl-4">Bakers Fat</Link>
-              <Link to="/products/cake-gel" onClick={() => setIsOpen(false)} className="text-lg py-2 border-b border-gray-100 pl-4">Cake Gel</Link>
             </div>
           </motion.div>
         )}

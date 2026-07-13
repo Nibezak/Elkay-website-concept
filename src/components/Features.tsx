@@ -2,16 +2,13 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import { Link } from "react-router-dom";
-import panGreaseImg from "../assets/pan-grease.jpg";
-import bakersFatImg from "../assets/bakers-fat.jpg";
-import doughImproverImg from "../assets/dough-improver.jpg";
-import cakeGelImg from "../assets/cake-gel.jpg";
+
 
 const programs = [
   {
     tag: "Essential Release",
     title: "Zero-Stick<br />Pan Grease",
-    img: panGreaseImg,
+    img: "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?w=600&q=80",
     alt: "Pan Grease",
     price: "Bulk",
     label: "Industrial & Artisanal Sizes",
@@ -20,7 +17,7 @@ const programs = [
   {
     tag: "Signature Structure",
     title: "Premium<br />Bakers Fat",
-    img: bakersFatImg,
+    img: "https://images.unsplash.com/photo-1603532648955-039310d9ed75?w=600&q=80",
     alt: "Bakers Fat",
     price: "Bulk",
     label: "Extend Shelf Life",
@@ -29,27 +26,18 @@ const programs = [
   {
     tag: "Scientific Edge",
     title: "Masterful Dough<br />Improver",
-    img: doughImproverImg,
+    img: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=80",
     alt: "Dough Improver",
     price: "Bulk",
     label: "Consistent Artisanal Batches",
     link: "/products/bread-improver"
-  },
-  {
-    tag: "Refined Softness",
-    title: "Engineered<br />Cake Gel",
-    img: cakeGelImg,
-    alt: "Cake Gel",
-    price: "Bulk",
-    label: "For Delicate Sponges",
-    link: "/products/cake-gel"
   }
 ];
 
 const features = [
   { title: "Consistent Quality", desc: "Formulated for absolute predictability in every single batch." },
-  { title: "Industrial Scale", desc: "Reliable supply chains designed for high-volume commercial bakeries." },
-  { title: "Technical Support", desc: "Direct access to our food scientists and master bakers." }
+  { title: "Industrial Scale", desc: "Reliable supply chains designed for high-volume commercial production." },
+  { title: "Technical Support", desc: "Direct access to our food scientists and production experts." }
 ];
 
 export default function Features({ className }: { className?: string }) {

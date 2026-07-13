@@ -4,35 +4,25 @@ import { Link } from 'react-router-dom';
 import { ArrowUpRight } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import panGreaseImg from '../assets/pan-grease.jpg';
-import bakersFatImg from '../assets/bakers-fat.jpg';
-import breadImproverImg from '../assets/dough-improver.jpg';
-import cakeGelImg from '../assets/cake-gel.jpg';
 
 const products = [
   {
     id: 'bread-improver',
     title: 'Bread Improver',
     desc: 'Enhance dough characteristics and ensure consistent batch quality.',
-    img: breadImproverImg
+    img: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=80"
   },
   {
     id: 'pan-grease',
     title: 'Pan Grease',
     desc: 'Clean release of baked products without leaving a burnt residue.',
-    img: panGreaseImg
+    img: "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?w=600&q=80"
   },
   {
     id: 'bakers-fat',
     title: 'Bakers Fat',
     desc: 'Emulsified fat specially designed for yeast based breads and steam buns.',
-    img: bakersFatImg
-  },
-  {
-    id: 'cake-gel',
-    title: 'Cake Gel',
-    desc: 'Premium cake emulsifier for volume and an incredibly tender crumb.',
-    img: cakeGelImg
+    img: "https://images.unsplash.com/photo-1603532648955-039310d9ed75?w=600&q=80"
   }
 ];
 
@@ -57,7 +47,7 @@ export default function Products() {
             Premium Ingredients
           </h1>
           <p className="text-xl text-[#012E1B]/80 max-w-2xl">
-            Explore our range of precision-engineered baking ingredients designed for master bakers and industrial scale production.
+            Explore our range of precision-engineered baking ingredients designed for production experts and industrial scale production.
           </p>
         </motion.div>
 

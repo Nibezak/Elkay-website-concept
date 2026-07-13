@@ -2,7 +2,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import panGreaseImg from '../assets/pan-grease.jpg';
 
 export default function PanGrease() {
   return (
@@ -27,7 +26,7 @@ export default function PanGrease() {
           
           <div className="w-full aspect-video rounded-3xl overflow-hidden my-8">
             <img 
-              src={panGreaseImg} 
+              src="https://images.unsplash.com/photo-1549931319-a545dcf3bc73?w=600&q=80" 
               alt="Pan Grease" 
               className="w-full h-full object-cover"
             />
@@ -48,7 +47,7 @@ export default function PanGrease() {
                   Industrial Packaging
                 </h3>
                 <p className="text-lg">
-                  Packed in 20 liters jerry cans for economic use! Designed for heavy-duty commercial bakeries requiring reliability at scale.
+                  Packed in 20 liters jerry cans for economic use! Designed for heavy-duty commercial facilities requiring reliability at scale.
                 </p>
               </div>
               <div className="flex justify-center md:justify-end">

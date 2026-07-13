@@ -2,11 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { ShieldCheck, Share2 } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import panGreaseImg from "../assets/pan-grease.jpg";
-import bakersFatImg from "../assets/bakers-fat.jpg";
-import doughImproverImg from "../assets/dough-improver.jpg";
-import cakeGelImg from "../assets/cake-gel.jpg";
-import hero1Img from "../assets/hero1.jpg";
+
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -55,7 +51,7 @@ export default function Hero({ className }: { className?: string }) {
               </motion.h1>
               
               <motion.p variants={itemVariants} className="mt-6 w-full lg:w-[491px] font-jost text-[18px] font-normal leading-[24px] text-white/80">
-                Premium bakery fats, pan grease, and artisanal ingredients delivered directly to your bakery to help you craft the perfect crumb and crust.
+                Premium baking fats, pan grease, and artisanal ingredients delivered directly to your facility to help you craft the perfect crumb and crust.
               </motion.p>
               
               <motion.div variants={itemVariants} className="mt-10 flex flex-wrap items-center gap-4">
@@ -116,8 +112,8 @@ export default function Hero({ className }: { className?: string }) {
                   transition={{ duration: 30, repeat: Infinity, ease: "linear" }}
                   className="flex flex-col gap-4 pt-4"
                 >
-                  {[bakersFatImg, "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=80", panGreaseImg, "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?w=600&q=80", 
-                    bakersFatImg, "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=80", panGreaseImg, "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?w=600&q=80"].map((src, i) => (
+                  {["https://images.unsplash.com/photo-1603532648955-039310d9ed75?w=600&q=80", "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=1600&q=80", "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?w=600&q=80", "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=1600&q=80", 
+                    "https://images.unsplash.com/photo-1603532648955-039310d9ed75?w=600&q=80", "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=1600&q=80", "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?w=600&q=80", "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=1600&q=80"].map((src, i) => (
                     <div key={`left-${i}`} className="w-[280px] h-[333px] rounded-[32px] overflow-hidden shadow-xl border-[4px] border-white/12 flex-shrink-0 bg-[#012E1B]">
                       <img src={src} className="object-cover w-full h-full hover:scale-105 transition-transform duration-700" alt="Baking Ingredient" />
                     </div>
@@ -132,8 +128,8 @@ export default function Hero({ className }: { className?: string }) {
                   transition={{ duration: 25, repeat: Infinity, ease: "linear" }}
                   className="flex flex-col gap-4"
                 >
-                  {[cakeGelImg, doughImproverImg, hero1Img, 
-                    cakeGelImg, doughImproverImg, hero1Img].map((src, i) => (
+                  {["https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=80", "https://images.unsplash.com/photo-1517686469429-8bdb88b9f907?w=1600&q=80", "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=1600&q=80", 
+                    "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=80", "https://images.unsplash.com/photo-1517686469429-8bdb88b9f907?w=1600&q=80", "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=1600&q=80"].map((src, i) => (
                     <div key={`right-${i}`} className="w-[280px] h-[333px] rounded-[32px] overflow-hidden shadow-xl border-[4px] border-white/12 flex-shrink-0 bg-[#012E1B]">
                       <img src={src} className="object-cover w-full h-full hover:scale-105 transition-transform duration-700" alt="Baking Ingredient" />
                     </div>

@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import certImg from "../assets/hero1.jpg";
 
 export default function Certifications({ className }: { className?: string }) {
   return (
@@ -16,7 +15,7 @@ export default function Certifications({ className }: { className?: string }) {
         >
           <div className="rounded-[32px] overflow-hidden shadow-2xl">
             <img 
-              src={certImg} 
+              src="https://images.unsplash.com/photo-1517686469429-8bdb88b9f907?w=1600&q=80" 
               alt="Halal and KEBS Certifications" 
               className="w-full h-auto object-cover hover:scale-105 transition-transform duration-700" 
             />

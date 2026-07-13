@@ -5,25 +5,25 @@ import { Star, ArrowUpRight } from "lucide-react";
 const testimonials = [
   {
     id: 0,
-    image: "https://images.unsplash.com/photo-1579697096985-41fe1430e5df?q=80&w=2000&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=600&auto=format&fit=crop",
     name: "Marcus Chen",
-    role: "Industrial Bakery Manager",
+    role: "Production Manager",
     rating: 5.0,
     headline: "“A complete shift in our production consistency.”",
     text: "“The customized dough improvers helped us regain peak production efficiency. I feel more confident in our daily output than ever before.”",
-    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=2574&auto=format&fit=crop",
+    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=600&auto=format&fit=crop",
     activeRole: "Operations Director"
   },
   {
     id: 1,
-    image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=2000&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=80",
     name: "David Miller",
-    role: "Artisanal Baker",
+    role: "Artisanal Producer",
     rating: 5.0,
     headline: "“The perfect balance between crumb and crust.”",
     text: "“Sourcing high-quality fat was a struggle until we partnered with Elkay. The ingredients fit perfectly into our traditional sourdough processes.”",
-    avatar: "https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=2574&auto=format&fit=crop",
-    activeRole: "Head Baker"
+    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=600&auto=format&fit=crop",
+    activeRole: "Head of Production"
   }
 ];
 
@@ -79,7 +79,7 @@ export default function Testimonials({ className }: { className?: string }) {
           Committed to Quality <br className="hidden md:block" /> Proven by Results
         </motion.h2>
         <motion.p variants={itemVariants} className="text-[#012E1B] text-[18px] font-normal leading-[26px] tracking-[-0.18px] opacity-80 flex-1 text-center md:text-left font-sans">
-          Authentic experiences from bakers who trusted our ingredients and transformed their output.
+          Authentic experiences from producers who trusted our ingredients and transformed their output.
         </motion.p>
       </motion.div>
       <div className="flex flex-col items-center gap-[48px] w-full">

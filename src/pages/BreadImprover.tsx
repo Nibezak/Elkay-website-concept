@@ -26,7 +26,7 @@ export default function BreadImprover() {
           
           <div className="w-full aspect-video rounded-3xl overflow-hidden my-8">
             <img 
-              src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=1600&q=80" 
+              src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=1600&q=80" 
               alt="Bread Improver" 
               className="w-full h-full object-cover"
             />
@@ -63,7 +63,7 @@ export default function BreadImprover() {
             </div>
 
             <p className="mb-8">
-              Bread improvers may also carry within them a blend of enzymes that assist in the gluten matrix modification as well as yeast foods or sources of nitrogen for the yeast to use. It is important for the baker to be aware of the differences between bread improvers as one used successfully in a particular application may encourage too much softening or strengthening of the gluten matrix when used in another. This could lead to major and costly problems in the bakery.
+              Bread improvers may also carry within them a blend of enzymes that assist in the gluten matrix modification as well as yeast foods or sources of nitrogen for the yeast to use. It is important for the producer to be aware of the differences between bread improvers as one used successfully in a particular application may encourage too much softening or strengthening of the gluten matrix when used in another. This could lead to major and costly problems in production.
             </p>
 
             <div className="bg-[#EDFBEA] p-8 md:p-12 rounded-3xl mt-12">

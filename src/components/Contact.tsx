@@ -11,7 +11,7 @@ export default function Contact({ className }: { className?: string }) {
       <motion.div className="w-full max-w-[1440px] px-6 md:px-[135px] py-[80px] md:py-[120px] flex flex-col lg:flex-row justify-between items-start gap-10 md:gap-[80px]" initial="initial" whileInView="animate" viewport={{ once: true, margin: "-100px" }} variants={containerVariants}>
         <div className="flex flex-col gap-6 w-full lg:max-w-[520px]">
           <motion.h2 variants={itemVariants} className="text-[#012E1B] text-[36px] md:text-[48px] font-bold leading-[120%] tracking-[-0.3px] font-serif">
-            Let's Scale Your <br /> Bakery Production
+            Let's Scale Your <br /> Production
           </motion.h2>
           <motion.p variants={itemVariants} className="text-[#012E1B] text-[16px] leading-[24px] opacity-80 font-sans">
             Reach out to our experts to discuss custom formulations, bulk orders, and how we can elevate your baking consistency.
@@ -37,7 +37,7 @@ export default function Contact({ className }: { className?: string }) {
               </div>
               <div className="flex flex-col gap-2 w-full">
                 <label className="text-[#012E1B] text-[14px] font-medium font-sans">Company</label>
-                <input type="text" placeholder="Bakery name" className="w-full px-4 py-[14px] bg-[#EDFBEA] rounded-[12px] outline-none text-[14px] font-sans placeholder:opacity-60" />
+                <input type="text" placeholder="Company name" className="w-full px-4 py-[14px] bg-[#EDFBEA] rounded-[12px] outline-none text-[14px] font-sans placeholder:opacity-60" />
               </div>
             </div>
             <div className="flex flex-col gap-2">

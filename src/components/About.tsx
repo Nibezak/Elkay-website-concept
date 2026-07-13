@@ -14,12 +14,12 @@ export default function About({ className }: { className?: string }) {
             Our Heritage in <br/> Every Loaf
           </motion.h1>
           <motion.p variants={itemVariants} className="text-[#012E1B]/80 text-lg md:text-xl font-sans max-w-[700px]">
-            For over three decades, Elkay has been the silent partner behind the world's most successful bakeries. We believe that great baking starts with impeccable ingredients.
+            For over three decades, Elkay has been the silent partner behind the world's most successful productions. We believe that great products start with impeccable ingredients.
           </motion.p>
         </div>
 
         <motion.div variants={itemVariants} className="w-full aspect-video rounded-[32px] overflow-hidden">
-          <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=1600&q=80" alt="Bakery Process" className="w-full h-full object-cover" />
+          <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=1600&q=80" alt="Production Process" className="w-full h-full object-cover" />
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-8">

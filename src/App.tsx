@@ -13,7 +13,6 @@ import About from './components/About';
 import BreadImprover from './pages/BreadImprover';
 import PanGrease from './pages/PanGrease';
 import BakersFat from './pages/BakersFat';
-import CakeGel from './pages/CakeGel';
 import Products from './pages/Products';
 
 function ScrollToTop() {
@@ -63,7 +62,6 @@ export default function App() {
         <Route path="/products/bread-improver" element={<BreadImprover />} />
         <Route path="/products/pan-grease" element={<PanGrease />} />
         <Route path="/products/bakers-fat" element={<BakersFat />} />
-        <Route path="/products/cake-gel" element={<CakeGel />} />
       </Routes>
     </BrowserRouter>
   );

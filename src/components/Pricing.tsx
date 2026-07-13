@@ -6,7 +6,7 @@ const plans = [
   {
     id: 1,
     title: "Artisanal Package",
-    subtitle: "Perfect for local bakeries",
+    subtitle: "Perfect for local producers",
     price: "Custom",
     buttonText: "Request Quote",
     features: [
